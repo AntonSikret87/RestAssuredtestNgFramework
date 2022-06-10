@@ -11,7 +11,7 @@ import io.restassured.specification.ResponseSpecification;
 import static com.spotify.oauth2.api.Route.BASE_PATH;
 
 public class SpecBuilder {
-    //mvn test -DBASE_URI="https://api.spotify.com" -DACCOUNT_BASE_URI="https://accounts.spotify.com"
+
     public static RequestSpecification getRequestSpec(){
         return new RequestSpecBuilder().
                 setBaseUri(System.getProperty("BASE_URI")).
