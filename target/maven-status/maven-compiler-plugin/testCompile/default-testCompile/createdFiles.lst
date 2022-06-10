@@ -1,0 +1,14 @@
+com\spotify\oauth2\pojo\InnerError.class
+com\spotify\oauth2\utils\ConfigLoader.class
+com\spotify\oauth2\utils\DataLoader.class
+com\spotify\oauth2\pojo\ExternalUrls_.class
+com\spotify\oauth2\utils\FakerUtils.class
+com\spotify\oauth2\api\SpecBuilder.class
+com\spotify\oauth2\pojo\Error$ErrorBuilder.class
+com\spotify\oauth2\utils\PropertyUtils.class
+com\spotify\oauth2\pojo\Error.class
+com\spotify\oauth2\tests\PlaylistTests.class
+com\spotify\oauth2\tests\BaseTest.class
+com\spotify\oauth2\utils\DummyClass.class
+com\spotify\oauth2\api\RestResource.class
+com\spotify\oauth2\api\StatusCode.class

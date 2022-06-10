@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.678" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\forAutomationMy\RestAPIFrame\target\test-classes;D:\forAutomationMy\RestAPIFrame\target\classes;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\akarabeinikov\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akarabeinikov\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\akarabeinikov\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akarabeinikov\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\akarabeinikov\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\akarabeinikov\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\akarabeinikov\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\akarabeinikov\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\akarabeinikov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akarabeinikov\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\akarabeinikov\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\akarabeinikov\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\akarabeinikov\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\akarabeinikov\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\akarabeinikov\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\akarabeinikov\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\akarabeinikov\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\akarabeinikov\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\akarabeinikov\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\akarabeinikov\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\akarabeinikov\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\akarabeinikov\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\akarabeinikov\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\akarabeinikov\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\akarabeinikov\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\akarabeinikov\AppData\Local\Temp\surefire11419278230339126079\surefirebooter15190916045368169280.jar C:\Users\akarabeinikov\AppData\Local\Temp\surefire11419278230339126079 2022-06-10T13-19-37_627-jvmRun1 surefire14316355353277813777tmp surefire_08525000678371087587tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\forAutomationMy\RestAPIFrame\target\test-classes;D:\forAutomationMy\RestAPIFrame\target\classes;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\akarabeinikov\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akarabeinikov\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\akarabeinikov\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akarabeinikov\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\akarabeinikov\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\akarabeinikov\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\akarabeinikov\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\akarabeinikov\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\akarabeinikov\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\akarabeinikov\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\akarabeinikov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akarabeinikov\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\akarabeinikov\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\akarabeinikov\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\akarabeinikov\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\akarabeinikov\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\akarabeinikov\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\akarabeinikov\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\akarabeinikov\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\akarabeinikov\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\akarabeinikov\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\akarabeinikov\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\akarabeinikov\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\akarabeinikov\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\akarabeinikov\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\akarabeinikov\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\akarabeinikov\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\akarabeinikov\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\akarabeinikov\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\akarabeinikov\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\akarabeinikov\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akarabeinikov"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\forAutomationMy\RestAPIFrame"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\akarabeinikov\AppData\Local\Temp\surefire11419278230339126079\surefirebooter15190916045368169280.jar"/>
+    <property name="user.script" value=""/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="akarabeinikov"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\akarabeinikov\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKARAB~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="D:\forAutomationMy\RestAPIFrame"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Users\akarabeinikov\apache-maven-3.8.5\bin;%M2_HOME%;C:\Users\akarabeinikov\scoop\shims;C:\Users\akarabeinikov\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.169">
+    <system-out><![CDATA[STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithExpiredToken
+STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithName
+STARTING TEST: ShouldBeAbleToGetAPlaylist
+STARTING TEST: ShouldBeAbleToCreateAPlaylist
+STARTING TEST: ShouldBeAbleToUpdateAPlaylist
+THREAD ID: 18
+THREAD ID: 21
+THREAD ID: 22
+THREAD ID: 19
+THREAD ID: 20
+Renewing token ...
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQDnGPDNXl7TcCzWGqRQmGTJlEv1OSdNfRdNfWBVbKo3OZVHq7VNZq4_hbsar_MSZa6ammE57uZmGQnv_FnNjwIgtgEPzIw-usl0ID8zgESKVhYUowFhNbH6AyTH5PhIP60
+				grant_type=refresh_token
+				client_secret=5ce89bec16e941f3b8a17859cf9b5d83
+				client_id=9579ecfe28de401e9be33f5499844572
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31cwbwtpj2bcjmp2kedtnspo4wcu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description #&C&&_2#t8+&# 4E dH1&&&6  6_+@L+1 _ &v#7 _8# 4+A-+",
+    "name": "Playlist  b -SP_,Sd",
+    "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 10 Jun 2022 11:19:41 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+HTTP/1.1 200 OK
+date: Fri, 10 Jun 2022 11:19:42 GMT
+content-type: application/json
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQCJxo96qZK9ew6LrGNHpiDSNVxgRq6TrymmTJHbGS_BQUZZXtknOTktk0Cprj5DUE0fR5r2vD_99aI7H1ics84zmNKuv0PJc8U;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: 8493591c585da06a
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQAYVnF8EeXcr4h2Vd8DBr5bynlc295nkfZvjhzIl77kd4rippFnUR8_sYNMCm2s157ketWZEzEKQf9d0bEnNxGRsAK9i7SburUT_l5NuheMhDXyLDhy9KyJBMUgSjsN4NtAY-VttY5KqXGe8d4f0Hd73gtHbdSA_bj8Ng-atjv2fv5fatVAloUNq30anqdvgqGiVE4UT3SHVjIIKLSz9-nnlS91eh6rz7C2Dk8sfbEJwKaIddjan2dcWi_TKUwUO0MX9qWhvQ3hTUvYlQ",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithName" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.692">
+    <system-out><![CDATA[Token is good to use
+Token is good to use
+Token is good to use
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/4rad8gpZSq3Z2AXfQu1bfD
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/6h20uIjLaTdDaC6JzhSCL4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description a -6+ 6##+&V__-B#4t_4+Yc2 +#R#O+5a+  ##2LM &+0Gg++",
+    "name": "Playlist  ,7C8_v-_,",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31cwbwtpj2bcjmp2kedtnspo4wcu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description  #/nh+I#&w+&#&z&#___1m2 _&&#&L_ &-_+&&7#6 #__L8Eq&",
+    "name": "",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31cwbwtpj2bcjmp2kedtnspo4wcu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description h &#n++_+ __+#&H- &_O#+@ &+&yY_#&@ +7+P-.W+#&&_#_#",
+    "name": "Playlist -xR5,, _s ",
+    "public": false
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 10 Jun 2022 11:19:42 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToUpdateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.784">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 10 Jun 2022 11:19:42 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToGetAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.835">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjE1MDg2ZjRlMzBhZTM3ZGY3YTIxMTgwYzU2OGE5MzA3Ig=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 10 Jun 2022 11:19:43 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Updated playlist description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4rad8gpZSq3Z2AXfQu1bfD"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/4rad8gpZSq3Z2AXfQu1bfD",
+    "id": "4rad8gpZSq3Z2AXfQu1bfD",
+    "images": [
+        
+    ],
+    "name": "Updated Playlist Name",
+    "owner": {
+        "display_name": "Om",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/c0sb51wjod0fli2g7k0r2lc5e"
+        },
+        "href": "https://api.spotify.com/v1/users/c0sb51wjod0fli2g7k0r2lc5e",
+        "id": "c0sb51wjod0fli2g7k0r2lc5e",
+        "type": "user",
+        "uri": "spotify:user:c0sb51wjod0fli2g7k0r2lc5e"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "NSxkMzYyZjdlYTMwNGI4YWEwZTI3OTU2MmU2NWI4ZTZkMGQzOWYyOWQ0",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4rad8gpZSq3Z2AXfQu1bfD/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4rad8gpZSq3Z2AXfQu1bfD"
+}
+HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+location: https://api.spotify.com/v1/playlists/2sbEFKUUcM3XNZ5PFnyGPr
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Fri, 10 Jun 2022 11:19:42 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Description h &#n++_+ __+#&H- &_O#+@ &+&yY_#&@ +7+P-.W+#&&_#_#",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2sbEFKUUcM3XNZ5PFnyGPr"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/2sbEFKUUcM3XNZ5PFnyGPr",
+    "id": "2sbEFKUUcM3XNZ5PFnyGPr",
+    "images": [
+        
+    ],
+    "name": "Playlist -xR5,, _s ",
+    "owner": {
+        "display_name": "test",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31cwbwtpj2bcjmp2kedtnspo4wcu"
+        },
+        "href": "https://api.spotify.com/v1/users/31cwbwtpj2bcjmp2kedtnspo4wcu",
+        "id": "31cwbwtpj2bcjmp2kedtnspo4wcu",
+        "type": "user",
+        "uri": "spotify:user:31cwbwtpj2bcjmp2kedtnspo4wcu"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSw1YzI3OWU4NjkwZTZiZTNhNjQyNTYzM2RlMzIxNWRkMzBhOWM0ZTYz",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2sbEFKUUcM3XNZ5PFnyGPr/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2sbEFKUUcM3XNZ5PFnyGPr"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToCreateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.835"/>
+</testsuite>
